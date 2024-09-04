@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height:100vh;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-image: url(https://images.unsplash.com/photo-1524230659092-07f99a75c013?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.key {
+  background-color: aqua;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: red;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.playing {
+  background-color: rgb(143, 195, 195);
+  transform: scale(1.1);
+}
